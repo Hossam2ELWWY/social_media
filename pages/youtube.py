@@ -1,7 +1,7 @@
 import pandas  as pd 
 import streamlit as st 
 import plotly.express as px 
-social_media = pd.read_csv(r"C:\Users\Maydoum\Downloads\Compressed\dummy_data.csv")
+social_media = pd.read_csv(r"dummy_data.csv")
 yout = social_media[social_media['platform'] == 'YouTube']
 st.title('YouTube')
 st.image(r'https://www.billboard.com/wp-content/uploads/2022/10/youtube-logo-2022-billboard-espagnol-1548.jpg?w=942&h=623&crop=1')
