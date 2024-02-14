@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st 
 import plotly.express as px 
-social_media = pd.read_csv(r"C:\Users\Maydoum\Downloads\Compressed\dummy_data.csv")
+social_media = pd.read_csv(r"dummy_data.csv")
 face = social_media[social_media['platform'] == 'Facebook']
 st.title('Facebook')
 st.image(r'https://cyrekdigital.com/static/5d5f92b08ea0b4b3ae29a30566ac35e0/23140/facebook-dla-marek-wszystko-o-marketingu-i-reklamie-na-fb.png' , caption="facebook" , use_column_width=True , width=100)
