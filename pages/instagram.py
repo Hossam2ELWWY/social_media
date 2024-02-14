@@ -1,7 +1,7 @@
 import pandas  as pd 
 import streamlit as st 
 import plotly.express as px 
-social_media = pd.read_csv(r"C:\Users\Maydoum\Downloads\Compressed\dummy_data.csv")
+social_media = pd.read_csv(r"dummy_data.csv")
 insta = social_media[social_media['platform'] == 'Instagram']
 st.title('Instagram')
 st.image(r'https://c.files.bbci.co.uk/1CC9/production/_126096370_gettyimages-1239414252.jpg')
